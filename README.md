@@ -7,5 +7,19 @@ be collected to the database. Survey information will be displayed on the user d
 ![](screenshot/Dashboard.png?raw=true)
 
 ## Demo
-
 The demo of this web app is running on [Heroku](https://feedback-collection-app-dw.herokuapp.com)
+
+## Main Techniques:
+
+### Programming Language:
+```
+JavaScript
+```
+### Front-end:
+```
+React, Redux, Materialze
+```
+### Back-end:
+```
+Node, MongoDB, Mongoose, Passport, Oauth, Stripe, SendGrid
+```
