@@ -12,11 +12,14 @@ The demo of this web app is running on [Heroku](https://feedback-collection-app-
 ## Main Techniques:
 
 ### Programming Language:
->JavaScript
-
+```
+JavaScript
+```
 ### Front-end:
->React, Redux, Materialze
-
+```
+React, Redux, Materialze
+```
 ### Back-end:
->Node, Express, MongoDB, Mongoose, Passport, Oauth, Stripe, SendGrid
-
+```
+Node, Express, MongoDB, Mongoose, Passport, Oauth, Stripe, SendGrid
+```
