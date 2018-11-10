@@ -1,4 +1,4 @@
-# FullstackPractice
+# Feedback Collection Web App
 
 This project is an web app that can be used to collect feedback. Users can pay for credits to create their surveys and
 send the survey to a list of recipients. After the recipients click the button on their email, the surveys results will
