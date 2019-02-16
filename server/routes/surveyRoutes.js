@@ -79,4 +79,14 @@ module.exports = app => {
       res.status(422).send(err);
     }
   });
+
+  app.get("/api/surveys/:surveyId", requireLogin, async (req, res) => {
+    try {
+      const survey = await Survey.findByIdAndDelete(req.params.surveyId);
+
+      res.send(survey);
+    } catch (err) {
+      res.status(404).send(err);
+    }
+  });
 };
