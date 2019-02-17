@@ -1,0 +1,16 @@
+.float-wrapper {
+  position: relative;
+  height: calc(100vh);
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  z-index: 997;
+  top: 0;
+  pointer-events: none;
+  width: 100%;
+}
+.float-wrapper a {
+  pointer-events: auto;
+}
