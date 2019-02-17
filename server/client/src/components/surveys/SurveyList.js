@@ -44,6 +44,15 @@ class SurveyList extends Component {
   }
 
   render() {
+    if (this.props.surveys.length === 0) {
+      return (
+        <div style={{ marginTop: 100 }}>
+          <h3 className='grey-text center'>
+            Your survey list is currently empty
+          </h3>
+        </div>
+      );
+    }
     return <div>{this.renderSurveys()}</div>;
   }
 }

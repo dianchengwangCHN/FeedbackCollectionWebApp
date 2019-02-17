@@ -20,7 +20,7 @@ class Landing extends Component {
       startButton = (
         <Link
           to='surveys'
-          className='waves-effect waves-light btn white black-text'
+          className='waves-effect waves-dark btn blue-grey lighten-3 black-text hoverable'
         >
           Get Started
         </Link>
